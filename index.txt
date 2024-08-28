@@ -89,7 +89,7 @@ a:active {
 </br>
 <a style="cursor: pointer" onclick="javascript: window.location = 'https://jackpurrin.me/projects';">Check out all of my cool projects!</a>
 </br>
-<a style="cursor: pointer" onclick="javascript: window.location = 'https://jackpurrin.me/yes.html/';">Is my computer on?</a>
+<a style="cursor: pointer" onclick="javascript: window.location = 'https://jackpurrin.me/yes/';">Is my computer on?</a>
 
 <h2>About</h2>
 <p>This website was made by a nerdy person who was just bored. I added features such as games, a chat room, and way more! I have added some of these features to create a community, so please participate! If you want to add something to this website, please contact me on the proper platform. </p>
@@ -140,7 +140,7 @@ a:active {
         <img src="https://jackpurrin.me/assets/images/email.png"
             width="64" width="64" alt="">
              
-        <span><a style="cursor: pointer" onclick="javascript: window.location = 'mailto:“jackpurrin@proton.me”';">jackpurrin@proton.me</a></span>
+        <span><a style="cursor: pointer" onclick="javascript: window.location = 'mailto:“email@jackpurrin.me”';">email@jackpurrin.me</a></span>
     </div>
     
     <div class="aligned">
