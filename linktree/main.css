@@ -1,0 +1,193 @@
+@import url(
+ "https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+
+    transition: all 0.3s ease-in-out;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #060c21;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.logo {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 8%;
+}
+
+.logoContainer {
+    margin: 1rem 0;
+    position: relative;
+    height: 225px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    height: 2.75rem;
+    width: 600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+
+    margin: 0.5rem 0;
+    border-radius: 15px;
+}
+
+.greetings {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.about {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.link span {
+    width: 80%;
+    text-align: center;
+}
+
+.link img {
+    height: 2rem;
+    aspect-ratio: 1;
+}
+
+.linkIcon {
+    height: 2rem !important;
+    aspect-ratio: 1;
+}
+
+.link:nth-child(1) {
+    background: linear-gradient(90deg,
+            rgba(241, 241, 241, 0.1) 30%,
+            rgba(113, 113, 113, 0.3) 100%),
+        #EBC7E8;
+    color: white;
+}
+
+.link:nth-child(2) {
+    background: linear-gradient(90deg,
+            rgba(241, 241, 241, 0.1) 30%,
+            rgba(113, 113, 113, 0.3) 100%),
+        #BFACE0;
+    color: white;
+}
+
+.link:nth-child(3) {
+    background: linear-gradient(90deg,
+            rgba(241, 241, 241, 0.1) 30%,
+            rgba(113, 113, 113, 0.3) 100%),
+        #A084CA;
+    color: white;
+}
+
+.link:nth-child(4) {
+    background: linear-gradient(90deg,
+            rgba(241, 241, 241, 0.1) 30%,
+            rgba(113, 113, 113, 0.3) 100%),
+        #645CAA;
+    color: white;
+}
+
+.link:nth-child(5) {
+    background: linear-gradient(90deg,
+            rgba(241, 241, 241, 0.1) 30%,
+            rgba(113, 113, 113, 0.3) 100%),
+        #4b4585;
+    color: white;
+}
+
+.link:nth-child(6) {
+    background: linear-gradient(90deg,
+            rgba(241, 241, 241, 0.1) 30%,
+            rgba(113, 113, 113, 0.3) 100%),
+        #413b71;
+    color: white;
+}
+
+.link:nth-child(7) {
+    background: linear-gradient(90deg,
+            rgba(241, 241, 241, 0.1) 30%,
+            rgba(113, 113, 113, 0.3) 100%),
+        #352e5c;
+    color: white;
+}
+
+.link:nth-child(8) {
+    background: linear-gradient(90deg,
+            rgba(241, 241, 241, 0.1) 30%,
+            rgba(113, 113, 113, 0.3) 100%),
+        #211d38;
+    color: white;
+}
+
+.link:hover {
+    filter: drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.2));
+    transform: scale(1.05);
+}
+
+.link>* {
+    transition: all 0.3s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+.link:hover>* {
+    transform: scale(1.1);
+    filter: drop-shadow(0px 5px 1px rgba(0, 0, 0, 0.2));
+}
+
+@media (max-width: 600px) {
+    body {
+        background-size: 100%;
+    }
+
+    .logo img {
+        width: 200px;
+    }
+
+    .link span {
+        width: 70%;
+        text-align: center;
+    }
+
+    .link {
+        width: 95vw;
+    }
+
+    .link:hover {
+        transform: scale(1.01);
+    }
+}
