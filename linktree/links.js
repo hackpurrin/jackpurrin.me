@@ -1,10 +1,10 @@
 export const links = [
     {
-        name: "Twitter",
+        name: "Twitch",
         link: 
-"https://twitter.com/geeksforgeeks",
+"https://twitch.tv/jackpurrin/",
         image: 
-"https://media.geeksforgeeks.org/wp-content/uploads/20230115205457/user1.png",
+"/assets/images/twitch.png",
     },
     {
         name: "Linkedin",
