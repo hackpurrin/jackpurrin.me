@@ -81,14 +81,12 @@ a {
 }
 
 .link img {
-    height: 300px;
-    width: 300px;
+    height: 2rem;
     aspect-ratio: 1;
 }
 
 .linkIcon {
-    height: 300px;
-    width: 300px;
+    height: 2rem !important;
     aspect-ratio: 1;
 }
 
@@ -177,8 +175,7 @@ a {
     }
 
     .logo img {
-        width: 300px;
-        height: 300px;
+        width: 200px;
     }
 
     .link span {
