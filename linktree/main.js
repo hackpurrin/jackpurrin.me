@@ -7,7 +7,7 @@ function addLink(name, link, image) {
   <a href="${link}" class="link" target="blank">
     <img src="${image}"/>
     <span>${name}  </span>
-    <img class="linkIcon" src="link-solid.svg" alt=""/>
+    <img class="linkIcon" src="https://jackpurrin.me/assets/images/link-solid.svg/" alt=""/>
   </a>
   `;
 }
