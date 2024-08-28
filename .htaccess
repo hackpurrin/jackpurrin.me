@@ -1,0 +1,17 @@
+RewriteEngine On
+
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+php_value date.timezone America/Phoenix
+ErrorDocument 404 https://jackpurrin.rf.gd/errpages/404
+ErrorDocument 403 https://jackpurrin.rf.gd/errpages/403
+ErrorDocument 401 https://jackpurrin.rf.gd/errpages/401
+ErrorDocument 400 https://jackpurrin.rf.gd/errpages/400
+ErrorDocument 500 https://jackpurrin.rf.gd/errpages/500
+ErrorDocument 503 https://jackpurrin.rf.gd/errpages/503
