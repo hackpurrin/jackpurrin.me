@@ -35,3 +35,9 @@ padding-bottom:3%;
 .copyright{
     text-align:center;
 }
+
+body {
+  font-family: "Ubuntu Sans Mono", sans-serif;
+  color: white;
+  background-color: #3b3b3b;
+}
