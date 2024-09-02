@@ -26,8 +26,8 @@ padding-bottom:3%;
 }
 
 .alink:hover{
-    color:blue;
-    background-color:white;
+    color:dark-red;
+    background-color:yellow;
     border: 2px solid;
     border-color:blue;
 }
