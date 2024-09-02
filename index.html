@@ -82,6 +82,19 @@ a:active {
 <h2>Other Sites!</h2>
 
 <script>
+    const CopyToClipboard = toCopy => {
+    const el = document.createElement(`textarea`)
+    el.value = toCopy
+    el.setAttribute(`readonly`, ``)
+    el.style.position = `absolute`
+    el.style.left = `-9999px`
+    document.body.appendChild(el)
+    el.select()
+    document.execCommand(`copy`)
+    document.body.removeChild(el)
+  }
+</script>
+
 <Button>
      variant="contained"
      size="large"
@@ -91,7 +104,7 @@ a:active {
    >
      Copy Link to Clipboard
 </Button>
-</script>
+
 
 <a style="cursor: pointer" onclick="javascript: window.location = 'https://jackpurrin.me/sites/oldchat/';">Join the Minecraft Java 1.21 Server! "mc.jackpurrin.me" (still in development, server may be dead for a period of time during development.)</a>
 </br>
