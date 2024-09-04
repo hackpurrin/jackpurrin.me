@@ -31,7 +31,6 @@
 
 h1 {
     color: white;
-    font-family: Arial;
     text-align: center;
 }
 a#download {
@@ -99,7 +98,7 @@ h3::before {
 
 h3 {
   position: relative;
-  font-size: 5rem;
+  font-size: 24px;
 }
 
 html {
