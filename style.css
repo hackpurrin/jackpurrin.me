@@ -55,3 +55,10 @@ span {
   padding: 10px;
         }
 
+.ubuntu-sans-mono-font {
+  font-family: "Ubuntu Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
