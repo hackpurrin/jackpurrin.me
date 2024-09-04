@@ -55,7 +55,7 @@ body {
 }
 
 a {
-  color: black;
+  color: white;
   background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
   background-clip: text;
   -webkit-background-clip: text;
