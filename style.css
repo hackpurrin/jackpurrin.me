@@ -3,6 +3,32 @@
     height: auto;
     padding: 100px 100px
 }
+
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.space-mono-regular-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.space-mono-bold-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
 h1 {
     color: white;
     font-family: Arial;
@@ -23,26 +49,21 @@ a#download {
 }
 
 body {
-  font-family: "Ubuntu Sans Mono", sans-serif;
+  font-family: "Space Mono", sans-serif;
   color: white;
   background-color: #3b3b3b;
 }
 
-a:link {
-  color: white;
-}
-
-a:visited {
-  color: #f9f1f1;
+a {
+  color: black;
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 a:hover {
-  color: white;
-  font-size: 20px;
-}
-
-a:active {
-  color: yellow;
+  color: transparent;
+  transition: 500ms ease;
   font-size: 20px;
 }
 
@@ -54,11 +75,3 @@ a:active {
 span {
   padding: 10px;
         }
-
-.ubuntu-sans-mono-font {
-  font-family: "Ubuntu Sans Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-}
-
