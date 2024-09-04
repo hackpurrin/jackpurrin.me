@@ -47,12 +47,6 @@ a#download {
     border-radius: 10px;
 }
 
-body {
-  font-family: "Space Mono", sans-serif;
-  color: white;
-  background: #222;
-}
-
 a {
   color: white;
   background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
@@ -74,3 +68,24 @@ a:hover {
 span {
   padding: 10px;
         }
+
+:root {
+  --grid-unit: 1rem;
+  --border-radius-base: 0.5rem;
+}
+
+[data-theme="light"] {
+  --color-bg: #ffffff;
+  --color-fg: #222;
+}
+
+[data-theme="dark"] {
+  --color-bg: #222;
+  --color-fg: #ffffff;
+}
+
+body {
+  font-family: "Space Mono", sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+}
