@@ -25,7 +25,7 @@ You can contact me using many different ways.
 
 ### [Signal](https://signal.me/#eu/n9lisVJryYSkzNgPdVGXZ9dFxZmlsjyoySqMdaM155G-1E-CcjtEe5qK4PriFv8w)
 
-### [eMail](jackpurrin@proton.me)
+### [eMail](mailto:jackpurrin@proton.me)
 
 
 
