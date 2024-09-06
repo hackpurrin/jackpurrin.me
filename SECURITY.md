@@ -13,3 +13,6 @@ What versions of my site are being currently updated?
 | .rf.gd  | :heavy_check_mark: |
 | .me     | :pirate_flag:      |
 | archive | :warning:          |
+| Any other TLDs*| :warning:   |
+
+*such as .com or .org
