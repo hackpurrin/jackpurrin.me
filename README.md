@@ -1,4 +1,4 @@
-![The Web Lab!](https://jackpurrin.me/assets/logo.png)
+![The Web Lab!](https://jackpurrin.me/assets/images/logo.png)
 
 # jackpurrin.me 🌐
 **This is the offical repository for my [website](https://jackpurrin.me)**
