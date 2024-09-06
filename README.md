@@ -19,6 +19,14 @@ If my website is blocked, I have another website. You can head to [jackpurrin.rf
 Wanna make your own site, or want help with any sort of thing relating to computers? Go to my website and find the proper way to contact me, or you can just head down below to the `Contact` section.
 
 ## Contact 📱
-You can contact me using many differnt ways.
+You can contact me using many different ways.
+
+### [Discord](https://discord.gg/MDMDE2Jfkg)
+
+### [Signal](https://signal.me/#eu/n9lisVJryYSkzNgPdVGXZ9dFxZmlsjyoySqMdaM155G-1E-CcjtEe5qK4PriFv8w)
+
+### [eMail](jackpurrin@proton.me)
+
+
 
 
