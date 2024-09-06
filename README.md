@@ -21,11 +21,11 @@ Wanna make your own site, or want help with any sort of thing relating to comput
 ## Contact 📱
 You can contact me using many different ways.
 
-### ![Discord Logo](https://jackpurrin.me/assets/images/discord.png) [Discord](https://discord.gg/MDMDE2Jfkg) 
+### [Discord](https://discord.gg/MDMDE2Jfkg) 
 
-### ![Signal Logo](https://jackpurrin.me/assets/images/signal.png) [Signal](https://signal.me/#eu/n9lisVJryYSkzNgPdVGXZ9dFxZmlsjyoySqMdaM155G-1E-CcjtEe5qK4PriFv8w)
+### [Signal](https://signal.me/#eu/n9lisVJryYSkzNgPdVGXZ9dFxZmlsjyoySqMdaM155G-1E-CcjtEe5qK4PriFv8w)
 
-### ![Email](https://jackpurrin.me/assets/images/email.png) [eMail](mailto:jackpurrin@proton.me)
+### [eMail](mailto:jackpurrin@proton.me)
 
 
 
