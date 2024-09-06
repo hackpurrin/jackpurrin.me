@@ -10,8 +10,8 @@ What versions of my site are being currently updated?
 
 | Version | Supported          |
 | ------- | ------------------ |
-| .rf.gd  | :heavy_check_mark: |
-| .me     | :pirate_flag:      |
+| .rf.gd  | :pirate_flag:      |
+| .me     | :heavy_check_mark: |
 | archive | :warning:          |
 | Any other TLDs*| :warning:   |
 
