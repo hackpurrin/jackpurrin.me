@@ -89,7 +89,7 @@ body {
 }
 
 
-h1, p {
+h1, p, a, h3 {
   font-size: clamp(var(--min), var(--val), var(--max));
 }
 
@@ -102,6 +102,12 @@ h1 {
 }
 
 p {
+  --min: 1em;
+  --val: 2.5vw;
+  --max: 1.5em;
+}
+
+a {
   --min: 1em;
   --val: 2.5vw;
   --max: 1.5em;
