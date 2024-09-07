@@ -42,17 +42,12 @@ a#download {
     border-radius: 10px;
 }
 
-a {
-  color: white;
-  background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
-  background-clip: text;
-  -webkit-background-clip: text;
-}
-
 a:hover {
   color: transparent;
   transition: 500ms ease;
-  font-size: 20px;
+  --min: 1.25em;
+  --val: 2.75vw;
+  --max: 1.75em;
 }
 
 .aligned {
@@ -111,4 +106,8 @@ a {
   --min: 1em;
   --val: 2.5vw;
   --max: 1.5em;
+  color: white;
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+  background-clip: text;
+  -webkit-background-clip: text;
 }
