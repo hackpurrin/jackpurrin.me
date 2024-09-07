@@ -108,3 +108,16 @@ a {
   background-clip: text;
   -webkit-background-clip: text;
 }
+
+.text-gradient {
+  color: darkblue;
+}
+
+@supports (--css: variables) {
+  .text-gradient {
+    background: linear-gradient(to right, darkblue, darkorchid);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
