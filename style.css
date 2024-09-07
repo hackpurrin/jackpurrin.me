@@ -44,7 +44,7 @@ a#download {
 
 a:hover {
   color: transparent;
-  transition: 500ms ease;
+  transition: 200ms ease;
   --min: 1.25em;
   --val: 2.75vw;
   --max: 1.75em;
