@@ -88,40 +88,5 @@ body {
   font-family: "Space Mono", sans-serif;
   background-color: var(--color-bg);
   color: var(--color-fg);
+  cursor: url("https://jackpurrin.me/assets/images/cursor.png"), pointer;
 }
-
-.falling-leaves {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  width: 100%;
-  height: 100%;
-  max-width: 880px;
-  max-height: 880px;
-  transform: translate(-50%, 0);
-  border-radius: 50px;
-  background-size: cover;
-}
-
-.leaf-scene {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-
-    div {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 20px;
-      height: 20px;
-      background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/125707/leaf.svg) no-repeat;
-      background-size: 100%;
-      transform-style: preserve-3d;
-      backface-visibility: visible;
-    }
-  }
