@@ -78,9 +78,6 @@ body {
   font-family: "Space Mono", sans-serif;
   background-color: var(--color-bg);
   color: var(--color-fg);
-  border-width: 4px;
-  border-style: solid;
-  border-image: linear-gradient(to right, darkblue, darkorchid) 1;
 }
 
 
