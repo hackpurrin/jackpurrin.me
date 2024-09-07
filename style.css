@@ -115,7 +115,7 @@ a {
 
 @supports (--css: variables) {
   .text-gradient {
-    background: linear-gradient(to right, darkblue, darkorchid);
+    background: linear-gradient(to right, #662D8C, #ED1E79);
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
