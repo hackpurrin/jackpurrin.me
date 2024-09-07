@@ -28,11 +28,6 @@
   font-style: italic;
 }
 
-
-h1 {
-    color: white;
-    text-align: center;
-}
 a#download {
     display: block;
     text-align: center;
@@ -88,5 +83,23 @@ body {
   font-family: "Space Mono", sans-serif;
   background-color: var(--color-bg);
   color: var(--color-fg);
-  cursor: url("https://jackpurrin.me/assets/images/cursor.png"), pointer;
+}
+
+
+h1, p {
+  font-size: clamp(var(--min), var(--val), var(--max));
+}
+
+h1 {
+  --min: 2em; /* minimum value */
+  --val: 5vw; /* preferred value = 5% viewport width */
+  --max: 3em; /* maximum value */
+    color: white;
+    text-align: center;
+}
+
+p {
+  --min: 1em;
+  --val: 2.5vw;
+  --max: 1.5em;
 }
