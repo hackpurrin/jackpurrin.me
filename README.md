@@ -1,5 +1,3 @@
-![The Web Lab!](https://jackpurrin.me/assets/images/home.gif)
-
 # jackpurrin.me 🌐
 **This is the offical repository for my [website](https://jackpurrin.me)**
 
