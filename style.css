@@ -122,40 +122,31 @@ a {
   }
 }
 
-@media screen{
-  .crt {
-    animation: scanlines infinite 55s linear ;
-  }
-} 
+        :root {
+          --repeat: 2s;   /* animation timing */
+          --height: 8px; /* total pixel height from scanline top to bottom of animation */
+          --area: 60%;    /* percentage of height the scanline covers */
+        }
+        body {
+          background-color: #fcfcfc;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+        }
 
-@keyframes scanlines {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: 0 -10px;
-  }
-}
+        .outer {
+          animation: scan var(--repeat) linear infinite;
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          transform-origin: center;
+          background: linear-gradient( to bottom, #000, #000 var(--area), #ccc var(--area), #ccc );
+          background-color: black;
+          background-size: 100% var(--height);
+          background-position-y: 0px;
+        }
 
-.crt {
-/* scanlines */
-  background: linear-gradient(to top, #000000, #000000, #333333, #333333);
-  background-size: cover;
-  background-size: 100% 1px;
-
-/* retro stuff */
-  color: #00ff00;
-  font-family: "Courier New", monospace;
-  font-size: 50px;
-  text-align: center;
-  text-shadow: 0 0 10px #00ff00;
-
-/* flex stuff */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-}
-/* retro stuff */
-  color: #00ff00;
-}
+        @keyframes scan {
+          0% { background-position-y: 0px; }
+          100% { background-position-y: var(--height); }
+        }
