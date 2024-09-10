@@ -7,7 +7,7 @@ I enjoy playing games like Minecraft and Half-Life, but am very explorative abou
 I have a server running Debian 12 that hosts my Minecraft server.
 
 ![:name](https://count.getloli.com/get/@jackpurrin?theme=rule34)
-[[https://spotify-github-profile.kittinanx.com/api/view.svg?uid=yhqxs1v6x0ew63x7xhzwsr78d&redirect=true][https://spotify-github-profile.kittinanx.com/api/view.svg?uid=yhqxs1v6x0ew63x7xhzwsr78d&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=true)]]
+![[https://spotify-github-profile.kittinanx.com/api/view.svg?uid=yhqxs1v6x0ew63x7xhzwsr78d&redirect=true][https://spotify-github-profile.kittinanx.com/api/view.svg?uid=yhqxs1v6x0ew63x7xhzwsr78d&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=true)]]
 
 ## Feature Requests ✔
 If you wish to add a game, a site, or anything else, visit the `Issues` tab in this github repository.
