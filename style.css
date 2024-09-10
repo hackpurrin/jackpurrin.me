@@ -126,13 +126,6 @@ a {
           --repeat: 2s;   /* animation timing */
           --height: 8px; /* total pixel height from scanline top to bottom of animation */
           --area: 60%;    /* percentage of height the scanline covers */
-        }
-        body {
-          background-color: #fcfcfc;
-          margin: 0;
-          padding: 0;
-          overflow: hidden;
-        }
 
         .outer {
           animation: scan var(--repeat) linear infinite;
