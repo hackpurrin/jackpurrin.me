@@ -3,8 +3,6 @@
 
 ## About 🤘
 I made this website because I just wanted a personal space to put the things I wanted and what my friends wanted, that's why there is games on my site. 
-I enjoy playing games like Minecraft and Half-Life, but am very explorative about what games I play.
-I have a server running Debian 12 that hosts my Minecraft server.
 
 ## Feature Requests ✔
 If you wish to add a game, a site, or anything else, visit the `Issues` tab in this github repository.
