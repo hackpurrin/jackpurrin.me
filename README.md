@@ -6,6 +6,8 @@ I made this website because I just wanted a personal space to put the things I w
 I enjoy playing games like Minecraft and Half-Life, but am very explorative about what games I play.
 I have a server running Debian 12 that hosts my Minecraft server.
 
+![:name](https://count.getloli.com/get/@jackpurrin?theme=rule34)
+
 ## Feature Requests ✔
 If you wish to add a game, a site, or anything else, visit the `Issues` tab in this github repository.
 You can request games, other sites, a program you want me to make, or just really anything! Go ahead, request something!
