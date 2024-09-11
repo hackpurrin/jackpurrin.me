@@ -19,7 +19,7 @@ You can contact me using many different ways.
 
 ### [Discord](https://discord.gg/MDMDE2Jfkg) 
 
-### [Signal](https://signal.me/#eu/n9lisVJryYSkzNgPdVGXZ9dFxZmlsjyoySqMdaM155G-1E-CcjtEe5qK4PriFv8w)
+### [WhatsApp](wa.link/8eq9im)
 
 ### [eMail](mailto:jackpurrin@proton.me)
 
