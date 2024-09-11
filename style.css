@@ -119,6 +119,7 @@ a {
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
+    transform:skew(60deg, -30deg) scaleY(.66667);
   }
 }
 
