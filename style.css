@@ -109,38 +109,11 @@ a {
   -webkit-background-clip: text;
 }
 
-.text-gradient {
-  color: darkblue;
-}
-
 @supports (--css: variables) {
   .text-gradient {
     background: linear-gradient(to right, #5ccefa, #f4a9b7, #ffffff, #f4a9b7, #5ccefa);
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    transform:skew(60deg, -30deg) scaleY(.66667);
   }
 }
-
-        :root {
-          --repeat: 2s;   /* animation timing */
-          --height: 8px; /* total pixel height from scanline top to bottom of animation */
-          --area: 60%;    /* percentage of height the scanline covers */
-
-        .outer {
-          animation: scan var(--repeat) linear infinite;
-          position: absolute;
-          height: 100%;
-          width: 100%;
-          transform-origin: center;
-          background: linear-gradient( to bottom, #000, #000 var(--area), #ccc var(--area), #ccc );
-          background-color: black;
-          background-size: 100% var(--height);
-          background-position-y: 0px;
-        }
-
-        @keyframes scan {
-          0% { background-position-y: 0px; }
-          100% { background-position-y: var(--height); }
-        }
