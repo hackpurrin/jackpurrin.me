@@ -11,17 +11,8 @@ You can request games, other sites, a program you want me to make, or just reall
 ## Blocked? 🚫
 If my website is blocked, I have another website. You can head to [jackpurrin.rf.gd](https://jackpurrin.rf.gd). This is an ok alternative, but this other site has a big warning, and won't be updated as often. It will get updated to my main site evantually, or I can find a workaround to figure out how to link this repostitory to an unblocked domain of this site. But for now, it'll do.
 
-## Need Help ❓
-Wanna make your own site, or want help with any sort of thing relating to computers? Go to my website and find the proper way to contact me, or you can just head down below to the `Contact` section.
-
-## Contact 📱
-You can contact me using many different ways.
-
-### [Discord](https://discord.gg/MDMDE2Jfkg) 
-
-### [WhatsApp](wa.link/8eq9im)
-
-### [eMail](mailto:jackpurrin@proton.me)
+## Need more info ❓
+It's all on my website! You can also find contact links on my wesbite if you need even more info!
 
 
 
