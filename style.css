@@ -111,7 +111,7 @@ a {
 
 @supports (--css: variables) {
   .text-gradient {
-    background: linear-gradient(to right, #5ccefa, #f4a9b7, #ffffff, #f4a9b7, #5ccefa);
+	background: linear-gradient(to right, #5ccefa, #f4a9b7, #ffffff, #f4a9b7, #5ccefa); 
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
