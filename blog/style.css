@@ -1,0 +1,119 @@
+#header {
+    background: #664c8f;
+    height: auto;
+    padding: 100px 100px
+}
+
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.space-mono-regular-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.space-mono-bold-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+a#download {
+    display: block;
+    text-align: center;
+    width: 150px;
+    margin: 0px auto;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial;
+    border: 1px solid #fff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+a:hover {
+  color: transparent;
+  transition: 200ms ease;
+  --min: 1.25em;
+  --val: 2.75vw;
+  --max: 1.75em;
+}
+
+.aligned {
+  display: flex;
+  align-items: center;
+        }
+          
+span {
+  padding: 10px;
+        }
+
+:root {
+  --grid-unit: 1rem;
+  --border-radius-base: 0.5rem;
+}
+
+[data-theme="light"] {
+  --color-bg: #ffffff;
+  --color-fg: #222;
+}
+
+[data-theme="dark"] {
+  --color-bg: #222;
+  --color-fg: #ffffff;
+}
+
+body {
+  font-family: "Space Mono", sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+}
+
+
+h1, p, a, h3 {
+  font-size: clamp(var(--min), var(--val), var(--max));
+}
+
+h1 {
+  --min: 2em; /* minimum value */
+  --val: 5vw; /* preferred value = 5% viewport width */
+  --max: 3em; /* maximum value */
+    color: white;
+    text-align: center;
+}
+
+p {
+  --min: 1em;
+  --val: 2.5vw;
+  --max: 1.5em;
+}
+
+a {
+  --min: 1em;
+  --val: 2.5vw;
+  --max: 1.5em;
+  color: white;
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+@supports (--css: variables) {
+  .text-gradient {
+	background: linear-gradient(to right, #5ccefa, #f4a9b7, #ffffff, #f4a9b7, #5ccefa); 
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
