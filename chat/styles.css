@@ -55,4 +55,28 @@ img {
  
 }
 
+/* Styling the chat box container */
+.chat-page {
+    padding: 0 0 50px 0;
+}
+
+.msg-inbox {
+    border: 1px solid #ccc;
+    overflow: hidden;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.chats {
+    padding: 30px 15px 0 25px;
+}
+
+/* Styling the message page */
+
+.msg-page {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+
 
