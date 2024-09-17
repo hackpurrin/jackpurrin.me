@@ -9,7 +9,7 @@ If you wish to add a game, a site, or anything else, visit the `Issues` tab in t
 You can request games, other sites, a program you want me to make, or just really anything! Go ahead, request something!
 
 ## Blocked? 🚫
-If my website is blocked, I have another website. You can head to [jackpurrin.rf.gd](https://jackpurrin.rf.gd). This is an ok alternative, but this other site has a big warning, and won't be updated as often. It will get updated to my main site evantually, or I can find a workaround to figure out how to link this repostitory to an unblocked domain of this site. But for now, it'll do.
+If my website is blocked, I have another website. You can head to [jackpurrin.rf.gd](https://jackpurrin.rf.gd). This is an ok alternative but it won't be updated as often. It will get updated to my main site evantually, or I can find a workaround to figure out how to link this repostitory to an unblocked domain of this site. But for now, it'll do.
 
 ## Need more info ❓
 It's all on my website! You can also find contact links on my wesbite if you need even more info!
