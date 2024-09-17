@@ -149,6 +149,48 @@ img {
     .send-icon {
         font-weight: bold !important;
     }
+/* Styling the avatar  */
+received-chats-img {
+    display: inline-block;
+    width: 50px;
+    float: left;
+}
+
+.received-msg {
+    display: inline-block;
+    padding: 0 0 0 10px;
+    vertical-align: top;
+    width: 92%;
+}
+.received-msg-inbox {
+    width: 57%;
+}
+
+.received-msg-inbox p {
+    background: #efefef none repeat scroll 0 0;
+    border-radius: 10px;
+    color: #646464;
+    font-size: 14px;
+    margin-left: 1rem;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: rgb(0 0 0 / 25%) 0px 5px 5px 2px;
+}
+    p {
+    overflow-wrap: break-word;
+}
+
+/* Styling the msg-sent time  */
+.time {
+    color: #777;
+    display: block;
+    font-size: 12px;
+    margin: 8px 0 0;
+}
+
+
+
+
 
 
 
