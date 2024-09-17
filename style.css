@@ -124,7 +124,7 @@ a {
 }
 
 .button:hover {
-  background-color: red;
+  background-color: #8B0000;
   color: white;
   --min: 1em;
   --val: 2.5vw;
