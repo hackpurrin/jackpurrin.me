@@ -1,75 +1,48 @@
-/* @codewithcurious.com */
+ body {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 13px;
+      display: flex;
+      flex-direction: column;
+      max-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
 
-/* Global Styles */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-}
+    .members-count,
+    .members-list,
+    .messages {
+      border: 1px solid #e4e4e4;
+      padding: 15px;
+      margin-bottom: 15px;
+    }
 
-header {
-  background-color: #007bff;
-  color: #fff;
-  padding: 20px;
-}
+    .messages {
+      flex-shrink: 1;
+      overflow: auto;
+    }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
+    .message {
+      padding: 5px 0;
+    }
+    .message .member {
+      display: inline-block;
+    }
 
-/* Chat Window Styles */
-.chat-window {
-  width: 500px;
-  background-color: #f0f0f0;
-  border-radius: 8px;
-  overflow: hidden;
-}
+    .member {
+      padding-right: 10px;
+      position: relative;
+    }
 
-.chat-area {
-  height: 400px;
-  overflow-y: scroll;
-  padding: 20px;
-}
-
-.chat-messages {
-  display: flex;
-  flex-direction: column;
-}
-
-.message {
-  margin-bottom: 10px;
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 4px;
-}
-
-.user-input {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-  background-color: #fff;
-}
-
-#message-input {
-  flex-grow: 1;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-#send-button {
-  padding: 8px 16px;
-  margin-left: 10px;
-  background-color: #007bff;
-  border: none;
-  border-radius: 4px;
-  color: #fff;
-  cursor: pointer;
-}
-
-#send-button:hover {
-  background-color: #0056b3;
-}
+    .message-form {
+      display: flex;
+      flex-shrink: 0;
+    }
+    .message-form__input {
+      flex-grow: 1;
+      border: 1px solid #dfdfdf;
+      padding: 10px 15px;
+      font-size: 16px;
+    }
+    .message-form__button {
+      margin: 10px;
+    }
