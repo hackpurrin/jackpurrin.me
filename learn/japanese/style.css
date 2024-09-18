@@ -28,20 +28,6 @@
   font-style: italic;
 }
 
-a#download {
-    display: block;
-    text-align: center;
-    width: 150px;
-    margin: 0px auto;
-    padding: 20px;
-    color: white;
-    text-transform: uppercase;
-    font-family: Arial;
-    border: 1px solid #fff;
-    text-decoration: none;
-    border-radius: 10px;
-}
-
 a:hover {
   color: transparent;
   transition: 200ms ease;
@@ -64,20 +50,10 @@ span {
   --border-radius-base: 0.5rem;
 }
 
-.light-mode {
-  --color-bg: #E1D9D1;
-  color: #414a4c;
-}
-
-.dark-mode {
-  --color-bg: #222;
-  color: white;
-}
-
 body {
   font-family: "Space Mono", sans-serif;
-  background-color: var(--color-bg); 
-  color: var(--color-fg);
+  --color-bg: #222;
+  color: white;
 }
 
 
@@ -114,19 +90,4 @@ a {
     -webkit-background-clip: text;
     background-clip: text;
   }
-}
-
-.button {
-  transition-duration: 0.4s;
-  --min: 1em;
-  --val: 2.5vw;
-  --max: 1.5em; 
-}
-
-.button:hover {
-  background-color: #8B0000;
-  color: white;
-  --min: 1em;
-  --val: 2.5vw;
-  --max: 1.5em;
 }
