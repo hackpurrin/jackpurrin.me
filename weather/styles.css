@@ -1,6 +1,7 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+  font-family: "Space Mono", sans-serif;
+  --color-bg: #222;
+  color: white;
 }
 
 .container {
