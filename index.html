@@ -1,197 +1,149 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<title>The Web Lab! - Home!</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" type="image/x-icon" href="/assets/images/beaker.png">
-<link rel="icon" href="/assets/images/beaker.png">
-<link rel="mask-icon" href="/assets/images/beaker.png">
-<link rel="stylesheet" href="style.css">
-
-<style>
-body {
-  --color-bg: #222;
-  color: white;
-}
-</style>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Web Lab! - Home!</title>
+    <link rel="icon" href="/assets/images/beaker.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body id="custom">
 
-<h1><span class="text-gradient">The Web Lab!</span></h1>
-</br>
-<a style="cursor: pointer" onclick="javascript: window.location = 'https://jackpurrin.me/chat/';">Join the chat room!</a>
-</br>
-<button onclick="darkMode()" class="button">Dark Theme</button>
-<button onclick="lightMode()" class="button">Light Theme</button>        
-<h2>About</h2>
-<p>This website was made by a nerdy person who was just bored. I'm just an ordinary gamer. Loves cats, and older stuff. I love to repurpose old tech and try to make it usable today. I usally play Minecraft and Half-Life, but I am very explorative with my games. </br> I don't currently have a job, still a high school student. I do know that I wan't to do Cybersecurity or be a Software Engineer when i'm able to get a job though. My dream school is MIT, and ASU, and I have intentions to get lots and lots of certifications.</p>
-<p>Before you start asking, I'm not trans. I don't know what I am quite yet, but I will still show support for LGBTQIA+</p>
-<p><b>Don't hack, dox, or harass people who you don't like. It's not nice.</b></p>
+    <header>
+        <h1><span class="text-gradient">The Web Lab!</span></h1>
+    </header>
 
-<script>
+    <main>
+        <section class="centered-buttons">
+            <a class="cta" href="https://jackpurrin.me/chat/">Join the chat room!</a>
+            <a class="cta" href="https://github.com/hackpurrin/jackpurrin.me/issues">Request more games</a>
+            <div class="theme-buttons">
+                <button onclick="darkMode()" class="button">Dark Theme</button>
+                <button onclick="lightMode()" class="button">Light Theme</button>
+            </div>
+        </section>
+
+        <section>
+            <h2>About Me</h2>
+            <p>This website was made by a nerdy person who was just bored. I'm just an ordinary gamer. Loves cats, and older stuff. I love to repurpose old tech and try to make it usable today. I usually play Minecraft and Half-Life, but I am very explorative with my games.</p>
+            <p>I don't currently have a job, still a high school student. I do know that I want to do Cybersecurity or be a Software Engineer when I'm able to get a job though. My dream school is MIT, and ASU, and I have intentions to get lots and lots of certifications.</p>
+            <p>Before you start asking, I'm not trans. I don't know what I am quite yet, but I will still show support for LGBTQIA+.</p>
+            <p>Don't hack, dox, or harass people who you don't like. It's not nice.</p>
+        </section>        
+
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>Basic computer knowledge</li>
+                <li>HTML coding basics (as demonstrated here!)</li>
+                <li>Linux knowledge</li>
+                <li>PC building</li>
+                <li>Fast learner</li>
+            </ul>
+        </section>
+
+        <section class="centered">
+            <h2>Games</h2>
+            <div class="game-list">
+                <div class="aligned">
+                    <img src="assets/images/pool.png" alt="Pool">
+                    <span><a href="games/pool.html">8 Ball Pool!</a></span>
+                </div>
+                <div class="aligned">
+                    <img src="assets/images/basketball.png" alt="Basketball">
+                    <span><a href="games/bstar.html">Basketball Stars!</a></span>
+                </div>
+                <div class="aligned">
+                    <img src="assets/images/cookie.png" alt="Cookie Clicker">
+                    <span><a href="games/cclicker.html">Cookie Clicker!</a></span>
+                </div>
+                <div class="aligned">
+                    <img src="assets/images/chess.png" alt="Chess">
+                    <span><a href="https://chess.com/">Chess!</a></span>
+                </div>
+                <div class="aligned">
+                    <img src="assets/images/drift.png" alt="Drift Hunters">
+                    <span><a href="games/drifthunters.html">Drift Hunters!</a></span>
+                </div>
+                <div class="aligned">
+                    <img src="assets/images/gdash.png" alt="Geometry Dash">
+                    <span><a href="games/gdash.html">Geometry Dash!</a></span>
+                </div>
+                <div class="aligned">
+                    <img src="assets/images/moto.png" alt="Moto X3M">
+                    <span><a href="games/motox3m.html">Moto X3M!</a></span>
+                </div>
+                <div class="aligned">
+                    <img src="assets/images/minecraft.png" alt="Minecraft">
+                    <span><a href="https://eaglecraft.pages.dev/">Minecraft! (1.8.9)</a></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="socials">
+            <h2>Socials</h2>
+            <p>Contact me on the platforms below:</p>
+            <div class="social-list">
+                <div class="aligned">
+                    <img src="assets/images/email.png" alt="Email">
+                    <span><a href="mailto:email@jackpurrin.me">Email</a></span>
+                </div>
+                <div class="aligned">
+                    <img src="assets/images/what.png" alt="Whatsapp">
+                    <span><a href="wa.link/8eq9im">Whatsapp</a></span>
+                </div>
+                <div class="aligned">
+                    <img src="assets/images/discord.png" alt="Discord">
+                    <span><a href="https://discord.gg/MDMDE2Jfkg">Discord</a></span>
+                </div>
+                <div class="aligned">
+                    <img src="assets/images/steam.png" alt="Steam">
+                    <span><a href="https://steamcommunity.com/profiles/jackpurrin">Steam</a></span>
+                </div>
+                <div class="aligned">
+                    <img src="assets/images/spotify.png" alt="Spotify">
+                    <span><a href="https://open.spotify.com/user/yhqxs1v6x0ew63x7xhzwsr78d">Spotify</a></span>
+                </div>
+                <div class="aligned">
+                    <img src="assets/images/soundcloud.png" alt="Soundcloud">
+                    <span><a href="https://soundcloud.com/jackpurrin">Soundcloud</a></span>
+                </div>
+                <div class="aligned">
+                    <img src="assets/images/youtube.png" alt="Youtube">
+                    <span><a href="https://www.youtube.com/@jackpurrin">Youtube</a></span>
+                </div>
+                <div class="aligned">
+                    <img src="assets/images/twitch.png" alt="Twitch">
+                    <span><a href="https://twitch.tv/jackpurrin/">Twitch</a></span>
+                </div>
+                <div class="aligned">
+                    <img src="assets/images/git.png" alt="Github">
+                    <span><a href="https://github.com/hackpurrin">Github</a></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="centered">
+            <h2>Donations</h2>
+            <p>Support me with Monero only!</p>
+            <p>Click on the link below for a QR code.</p>
+            <div class="aligned">
+                <img src="assets/images/monero.png" alt="Monero">
+                <span><a href="assets/images/monqr.png">Send Monero</a></span>
+            </div>
+        </section>
+    </main>
+
+    <script>
         function lightMode() {
-            let element = document.body;
-            let content = document.getElementById("DarkModetext");
-            element.className = "light-mode";
-            content.innerText = "Dark Mode is OFF";
+            document.body.className = 'light-mode';
         }
+
         function darkMode() {
-            let element = document.body;
-            let content = document.getElementById("DarkModetext");
-            element.className = "dark-mode";
-            content.innerText = "Dark Mode is ON";
+            document.body.className = 'dark-mode';
         }
-</script>
+    </script>
 
-<h2>Stuff I know</h2>
-<p>I understand the basics of computers.</p>
-<p>I can how to "code" in HTML, and it's demonstrated here!</p>
-<p>I understand the basic of Linux.</p>
-<p>I can build a computer. All be it, not the prettiest, but a computer!</p>
-<p>I am <strong>VERY</strong> good at learning stuff</p>
-
-<h2>Games!</h2>
-
-<a style="cursor: pointer" onclick="javascript: window.location = 'https://github.com/hackpurrin/jackpurrin.me/issues';">Want more or other games? Request games by clicking on me!</a>
-</br>
-
-<div class="aligned">
-        <img src="assets/images/pool.png"
-            width="32" height="32" alt="">
-             
-        <span><a style="cursor: pointer" onclick="javascript: window.location = 'games/pool.html';">8 Ball Pool!</a></span>
-</div>
-<div class="aligned">
-        <img src="assets/images/basketball.png"
-            width="32" height="32" alt="">
-             
-        <span><a style="cursor: pointer" onclick="javascript: window.location = 'games/bstar.html';">Basketball Stars!</a></span>
-</div>
-<div class="aligned">
-        <img src="assets/images/cookie.png"
-            width="32" height="32" alt="">
-             
-        <span><a style="cursor: pointer" onclick="javascript: window.location = 'games/cclicker.html';">Cookie Clicker!</a></span>
-</div>
-<div class="aligned">
-        <img src="assets/images/chess.png"
-            width="32" height="32" alt="">
-             
-        <span><a style="cursor: pointer" onclick="javascript: window.location = 'https://chess.com/';">Chess!</a></span>
-</div>
-<div class="aligned">
-        <img src="assets/images/drift.png"
-            width="32" height="32" alt="">
-             
-        <span><a style="cursor: pointer" onclick="javascript: window.location = 'games/drifthunters.html';">Drift Hunters!</a></span>
-</div>
-<div class="aligned">
-        <img src="assets/images/gdash.png"
-            width="32" height="32" alt="">
-             
-        <span><a style="cursor: pointer" onclick="javascript: window.location = 'games/gdash.html';">Geometry Dash!</a></span>
-</div>
-<div class="aligned">
-        <img src="assets/images/moto.png"
-            width="32" height="32" alt="">
-             
-        <span><a style="cursor: pointer" onclick="javascript: window.location = 'games/motox3m.html';">Moto X3M!</a></span>
-</div>
-<div class="aligned">
-        <img src="assets/images/minecraft.png"
-            width="32" height="32" alt="">
-             
-        <span><a style="cursor: pointer" onclick="javascript: window.location = 'https://eaglecraft.pages.dev/';">Minecraft! (1.8.9)</a></span>
-</div>
-        
-<h2>Socials!</h2>
-
-<p>You can find me on many different platforms, so be sure to check me out!</p> 
-
-<p>Contact</p>
-  
-<div class="aligned">
-        <img src="assets/images/email.png"
-            width="32" width="32" alt="">
-             
-        <span><a style="cursor: pointer" onclick="javascript: window.location = 'mailto:“email@jackpurrin.me”';">Email</a></span>
-</div>
-
-<div class="aligned">
-        <img src="assets/images/what.png"
-            width="32" width="32" alt="">
-             
-        <span><a style="cursor: pointer" onclick="javascript: window.location = 'wa.link/8eq9im';">Whatsapp</a></span>
-</div>
-    
-<div class="aligned">
-        <img src="assets/images/discord.png"
-            width="32" width="32" alt="">
-             
-        <span><a style="cursor: pointer" onclick="javascript: window.location = 'https://discord.gg/MDMDE2Jfkg';">The Discord Lab!</a></span>
-</div>
-  
-<p>Gaming</p>
-  
-<div class="aligned">
-        <img src="assets/images/steam.png"
-            width="32" height="32" alt="">
-             
-        <span><a style="cursor: pointer" onclick="javascript: window.location = 'https://steamcommunity.com/profiles/jackpurrin';">Steam</a></span>
-</div>
-        
-<p>Music</p>
-  
-<div class="aligned">
-        <img src="assets/images/spotify.png"
-            width="32" height="32" alt="">
-             
-        <span><a style="cursor: pointer" onclick="javascript: window.location = 'https://open.spotify.com/user/yhqxs1v6x0ew63x7xhzwsr78d';">Spotify</a></span>
-</div>
-
-<div class="aligned">
-        <img src="assets/images/soundcloud.png"
-            width="32" height="32" alt="">
-             
-        <span><a style="cursor: pointer" onclick="javascript: window.location = 'https://soundcloud.com/jackpurrin';">Soundcloud</a></span>
-</div>
-
-<p>Videos and Streaming</p>
-  
-<div class="aligned">
-        <img src="assets/images/youtube.png"
-            width="32" height="32" alt="">
-             
-        <span><a style="cursor: pointer" onclick="javascript: window.location = 'https://www.youtube.com/@jackpurrin';">Youtube</a></span>
-</div>
-
-<div class="aligned">
-        <img src="assets/images/twitch.png"
-            width="32" height="32" alt="">
-             
-        <span><a style="cursor: pointer" onclick="javascript: window.location = 'https://twitch.tv/jackpurrin/';">Twitch</a></span>
-</div>
-
-<p>Other</p>
-  
-<div class="aligned">
-        <img src="assets/images/git.png"
-            width="32" height="32" alt="">
-             
-        <span><a style="cursor: pointer" onclick="javascript: window.location = 'https://github.com/hackpurrin';">Github</a></span>
-</div>
-
-<h2>Donations!</h2>
-<p>You can send me some monero, as that's all I will accept.</p>
-<p>Click on the link below for a QR code.</p>
-<div class="aligned">
-        <img src="assets/images/monero.png"
-            width="32" height="32" alt="">
-             
-        <span><a style="cursor: pointer" onclick="javascript: window.location = 'assets/images/monqr.png';">48Wzaw8ebH5QcTmneVtP2WKrUwJ6qSx8eHhriCfzEiQo5mfjCpnGmCGRk2pA3Tx9dq8nQmjkuFVEJRTd3LVDVzsiQPSWXi7</a></span>
-</div>
-        
-</head>
 </body>
 </html>
