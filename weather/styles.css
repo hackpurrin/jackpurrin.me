@@ -1,7 +1,5 @@
 body {
   font-family: "Space Mono", sans-serif;
-  --color-bg: #222;
-  color: white;
 }
 
 .container {
@@ -25,6 +23,8 @@ input[type="text"] {
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
 }
 
 button {
