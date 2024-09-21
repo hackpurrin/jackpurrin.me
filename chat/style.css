@@ -1,129 +1,133 @@
- body {
-      font-family: "Space Mono", sans-serif;
-      background-color: var(--color-bg);
-      color: var(--color-fg);
-      box-sizing: border-box;
-      margin: 0;
-      padding: 13px;
-      display: flex;
-      flex-direction: column;
-      max-height: 100vh;
-    }
-
-#header {
-    background: #664c8f;
-    height: auto;
-    padding: 100px 100px
-}
-
-.space-mono-regular {
-  font-family: "Space Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.space-mono-bold {
-  font-family: "Space Mono", monospace;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.space-mono-regular-italic {
-  font-family: "Space Mono", monospace;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.space-mono-bold-italic {
-  font-family: "Space Mono", monospace;
-  font-weight: 700;
-  font-style: italic;
-}
-
-a#download {
-    display: block;
-    text-align: center;
-    width: 150px;
-    margin: 0px auto;
-    padding: 20px;
-    color: white;
-    text-transform: uppercase;
-    font-family: Arial;
-    border: 1px solid #fff;
-    text-decoration: none;
-    border-radius: 10px;
-}
-
-a:hover {
-  color: transparent;
-  transition: 200ms ease;
-  --min: 1.25em;
-  --val: 2.75vw;
-  --max: 1.75em;
-}
-
-.aligned {
-  display: flex;
-  align-items: center;
-        }
-          
-span {
-  padding: 10px;
-        }
-
+/* General Styling */
 :root {
-  --grid-unit: 1rem;
-  --border-radius-base: 0.5rem;
-}
-
-[data-theme="light"] {
-  --color-bg: #ffffff;
-  --color-fg: #222;
-}
-
-[data-theme="dark"] {
   --color-bg: #222;
-  --color-fg: #ffffff;
+  --color-fg: white;
+  --primary-color: #5ccefa;
+  --secondary-color: #f4a9b7;
+  --accent-color: #ffffff;
+  --button-hover-color: #8B0000;
+  --font-mono: 'Space Mono', monospace;
 }
 
-h1, p, a, h3 {
-  font-size: clamp(var(--min), var(--val), var(--max));
+body {
+  margin: 0;
+  font-family: var(--font-mono);
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+  line-height: 1.6;
+  padding: 20px;
+  text-align: center; /* Center all text by default */
+}
+
+header, h1, h2 {
+  text-align: center;
 }
 
 h1 {
-  --min: 2em; /* minimum value */
-  --val: 5vw; /* preferred value = 5% viewport width */
-  --max: 3em; /* maximum value */
-    color: white;
-    text-align: center;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 1.5rem;
 }
 
 p {
-  --min: 1em;
-  --val: 2.5vw;
-  --max: 1.5em;
+  font-size: 1.1rem;
+  margin-bottom: 1.2rem;
+  text-align: center; /* Center all paragraphs */
 }
 
-a {
-  --min: 1em;
-  --val: 2.5vw;
-  --max: 1.5em;
-  color: white;
-  background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
-  background-clip: text;
+/* Gradient Text */
+.text-gradient {
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color), var(--accent-color));
   -webkit-background-clip: text;
+  color: transparent;
 }
 
-@supports (--css: variables) {
-  .text-gradient {
-	background: linear-gradient(to right, #5ccefa, #f4a9b7, #ffffff, #f4a9b7, #5ccefa); 
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-  }
+/* Links */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: bold;
 }
 
-    .members-count,
+a:hover {
+  color: var(--secondary-color);
+  transition: color 0.3s ease;
+}
+
+/* Call-to-action buttons */
+.cta {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.8rem 1.5rem;
+  margin: 1.2rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.cta:hover {
+  background-color: var(--secondary-color);
+  transition: background-color 0.3s ease;
+}
+
+/* Centered buttons section */
+.centered-buttons {
+  text-align: center;
+}
+
+.centered-buttons .cta {
+  margin: 1rem;
+}
+
+/* Game list styling */
+.game-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Socials */
+.socials {
+  text-align: center; /* Center the title and text */
+}
+
+.social-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+/* Button Styling */
+.theme-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button {
+  padding: 0.8rem 1.5rem;
+  border: 1px solid white;
+  background: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: var(--button-hover-color);
+  transition: background-color 0.3s ease;
+}
+
+
+.members-count,
     .members-list,
     .messages {
       border: 1px solid #e4e4e4;
@@ -164,10 +168,39 @@ a {
 
 .light-mode {
   --color-bg: #E1D9D1;
-  color: #414a4c;
+  --color-fg: #414a4c;
 }
 
 .dark-mode {
   --color-bg: #222;
-  color: white;
+  --color-fg: white;
+}
+/* Skills list styling */
+ul {
+  list-style-type: none; /* Remove bullets from list items */
+  padding: 0; /* Remove default padding */
+}
+
+li {
+  font-size: 1.1rem; /* Ensure consistent font size */
+  margin-bottom: 1.2rem; /* Add spacing between list items */
+}
+
+/* Responsive Text Sizing */
+h1, p, a {
+  font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+}
+
+@media (max-width: 768px) {
+  body {
+      padding: 10px;
+  }
+
+  h1 {
+      font-size: 2.5rem;
+  }
+  
+  h2 {
+      font-size: 1.8rem;
+  }
 }
