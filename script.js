@@ -20,4 +20,5 @@ console.log("🥤 Soda         1          1.99   ")
 console.log("----------------------------------")
 console.log("Total                      7.47   ")
 console.log("==================================")
+console.log("If you found this, tell me! Email, Discord, or Twitter!")
 }
