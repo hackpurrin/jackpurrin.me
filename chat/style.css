@@ -1,206 +1,180 @@
-/* General Styling */
 :root {
-  --color-bg: #222;
-  --color-fg: white;
-  --primary-color: #5ccefa;
-  --secondary-color: #f4a9b7;
-  --accent-color: #ffffff;
-  --button-hover-color: #8B0000;
-  --font-mono: 'Space Mono', monospace;
-}
-
-body {
-  margin: 0;
-  font-family: var(--font-mono);
-  background-color: var(--color-bg);
-  color: var(--color-fg);
-  line-height: 1.6;
-  padding: 20px;
-  text-align: center; /* Center all text by default */
-}
-
-header, h1, h2 {
-  text-align: center;
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-h2 {
-  font-size: 2rem;
-  margin-top: 1.5rem;
-}
-
-p {
-  font-size: 1.1rem;
-  margin-bottom: 1.2rem;
-  text-align: center; /* Center all paragraphs */
-}
-
-/* Gradient Text */
-.text-gradient {
-  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color), var(--accent-color));
-  -webkit-background-clip: text;
-  color: transparent;
-}
-
-/* Links */
-a {
-  color: var(--primary-color);
-  text-decoration: none;
-  font-weight: bold;
-}
-
-a:hover {
-  color: var(--secondary-color);
-  transition: color 0.3s ease;
-}
-
-/* Call-to-action buttons */
-.cta {
-  display: inline-block;
-  background-color: var(--primary-color);
-  color: white;
-  padding: 0.8rem 1.5rem;
-  margin: 1.2rem;
-  border-radius: 5px;
-  text-transform: uppercase;
-  font-size: 1.2rem;
-  text-align: center;
-}
-
-.cta:hover {
-  background-color: var(--secondary-color);
-  transition: background-color 0.3s ease;
-}
-
-/* Centered buttons section */
-.centered-buttons {
-  text-align: center;
-}
-
-.centered-buttons .cta {
-  margin: 1rem;
-}
-
-/* Game list styling */
-.game-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
-
-/* Socials */
-.socials {
-  text-align: center; /* Center the title and text */
-}
-
-.social-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  justify-content: center;
-}
-
-/* Button Styling */
-.theme-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
-
-.button {
-  padding: 0.8rem 1.5rem;
-  border: 1px solid white;
-  background: none;
-  color: white;
-  font-size: 1rem;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-.button:hover {
-  background-color: var(--button-hover-color);
-  transition: background-color 0.3s ease;
-}
-
-
-.members-count,
-    .members-list,
-    .messages {
-      border: 1px solid #e4e4e4;
-      padding: 15px;
-      margin-bottom: 15px;
-    }
-
-    .messages {
-      flex-shrink: 1;
-      overflow: auto;
-    }
-
-    .message {
-      padding: 5px 0;
-    }
-    .message .member {
-      display: inline-block;
-    }
-
-    .member {
-      padding-right: 10px;
-      position: relative;
-    }
-
-    .message-form {
-      display: flex;
-      flex-shrink: 0;
-    }
-    .message-form__input {
-      flex-grow: 1;
-      border: 1px solid #dfdfdf;
-      padding: 10px 15px;
-      font-size: 16px;
-    }
-    .message-form__button {
-      margin: 10px;
-    }
-
-.light-mode {
-  --color-bg: #E1D9D1;
-  --color-fg: #414a4c;
+  /* Color Variables */
+  --background-color: #f5f5f5;
+  --text-color: #333;
+  --header-color: #ffffff;
+  --button-color: #6200ea;
+  --button-hover-color: #3700b3;
+  --input-background: #ffffff;
+  --input-text-color: #333;
+  --message-background: #ffffff;
 }
 
 .dark-mode {
-  --color-bg: #222;
-  --color-fg: white;
-}
-/* Skills list styling */
-ul {
-  list-style-type: none; /* Remove bullets from list items */
-  padding: 0; /* Remove default padding */
-}
-
-li {
-  font-size: 1.1rem; /* Ensure consistent font size */
-  margin-bottom: 1.2rem; /* Add spacing between list items */
+  --background-color: #121212;
+  --text-color: #e0e0e0;
+  --header-color: #1f1f1f;
+  --button-color: #bb86fc;
+  --button-hover-color: #3700b3;
+  --input-background: #1f1f1f;
+  --input-text-color: #e0e0e0;
+  --message-background: #1f1f1f;
 }
 
-/* Responsive Text Sizing */
-h1, p, a {
-  font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-@media (max-width: 768px) {
-  body {
-      padding: 10px;
-  }
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
 
-  h1 {
-      font-size: 2.5rem;
-  }
-  
-  h2 {
-      font-size: 1.8rem;
-  }
+.header {
+  background-color: var(--header-color);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.theme-toggle {
+  margin-top: 10px;
+}
+
+.theme-toggle button {
+  background-color: var(--button-color);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.theme-toggle button:hover {
+  background-color: var(--button-hover-color);
+}
+
+.chat-section {
+  display: flex;
+  margin-top: 20px;
+}
+
+.members-panel {
+  width: 200px;
+  background-color: var(--header-color);
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.members-list {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.chat-container {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+.messages {
+  max-height: 400px;
+  overflow-y: auto;
+  background-color: var(--message-background);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.member {
+  font-weight: bold;
+}
+
+.message-form {
+  display: flex;
+  margin-top: 15px;
+}
+
+.message-form__input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: var(--input-background);
+  color: var(--input-text-color);
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.send-button {
+  background-color: var(--button-color);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.send-button:hover {
+  background-color: var(--button-hover-color);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: var(--background-color);
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content h2 {
+  margin-bottom: 15px;
+}
+
+.modal-content form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: var(--input-background);
+  color: var(--input-text-color);
+}
+
+.modal-submit-button {
+  background-color: var(--button-color);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.modal-submit-button:hover {
+  background-color: var(--button-hover-color);
 }

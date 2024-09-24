@@ -1,35 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>The Web Lab! - Chat!</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real-time Chat Room</title>
   <link rel="stylesheet" href="style.css">
-  <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
-  <!--<script type='text/javascript' src='http://0.0.0.0:8080/scaledrone.js'></script>-->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <link rel="icon" type="image/x-icon" href="/assets/images/beaker.png">
-  <link rel="icon" href="/assets/images/beaker.png">
-  <link rel="mask-icon" href="/assets/images/beaker.png">
- <style>
-body {
-  --color-bg: #222;
-  color: white;
-}
-</style>
 </head>
-<body>
-<h1 style="cursor: pointer" onclick="javascript: window.location = 'https://jackpurrin.me/';"><span class="text-gradient">The Web Lab!</span></h1>
-<button onclick="darkMode()" class="button">Dark Theme</button>
-<button onclick="lightMode()" class="button">Light Theme</button> 
-<br>
-  
-  <div class="members-count">-</div>
-  <div class="members-list">-</div>
-  <div class="messages"></div>
-  <form class="message-form" onsubmit="return false;">
-    <input class="message-form__input" placeholder="Type a message.." type="text"/>
-    <input class="message-form__button" value="Send" type="submit"/>
-  </form>
-  <script src="./script.js"></script>
+<body class="light-mode">
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <h1>Real-time Chat Room</h1>
+      <div class="theme-toggle">
+        <button id="light-mode-btn" aria-label="Switch to light mode">☀️ Light Mode</button>
+        <button id="dark-mode-btn" aria-label="Switch to dark mode">🌙 Dark Mode</button>
+      </div>
+    </header>
+
+    <!-- Chat Section -->
+    <section class="chat-section">
+      <aside class="members-panel">
+        <h3 class="members-count">0 users in the room:</h3>
+        <div class="members-list"></div>
+      </aside>
+
+      <div class="chat-container">
+        <div class="messages" id="messages"></div>
+        <form class="message-form" autocomplete="off">
+          <input id="message-input" class="message-form__input" type="text" placeholder="Type your message..." aria-label="Chat message" required />
+          <button type="submit" class="send-button" aria-label="Send message">Send</button>
+        </form>
+      </div>
+    </section>
+  </div>
+
+  <!-- Modal for Name and Color Selection -->
+  <div id="nameColorModal" class="modal">
+    <div class="modal-content">
+      <h2>Enter Your Name and Choose a Color</h2>
+      <form id="nameColorForm">
+        <label for="username">Name:</label>
+        <input type="text" id="username" name="username" required placeholder="Enter your name">
+        
+        <label for="usercolor">Choose a color:</label>
+        <input type="color" id="usercolor" name="usercolor" value="#ff0000">
+        
+        <button type="submit" class="modal-submit-button">Join Chat</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Include ScaleDrone SDK -->
+  <script src="https://cdn.scaledrone.com/scaledrone.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
