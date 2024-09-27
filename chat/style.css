@@ -178,3 +178,14 @@ body {
 .modal-submit-button:hover {
   background-color: var(--button-hover-color);
 }
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: var(--secondary-color);
+  transition: color 0.3s ease;
+}
