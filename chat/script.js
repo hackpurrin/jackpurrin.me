@@ -1,6 +1,7 @@
 // Global variables
 let userName = '';
 let userColor = '';
+const audio = new Audio('notif.mp3');
 
 // DOM elements
 const DOM = {
@@ -142,6 +143,7 @@ function addMessageToDOM(text, member) {
   `;
   DOM.messages.appendChild(messageElement);
   DOM.messages.scrollTop = DOM.messages.scrollHeight;
+  audio.play();
 }
 
 // Theme toggling with CSS variables
