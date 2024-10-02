@@ -52,6 +52,13 @@ a {
   font-weight: bold;
 }
 
+h5 {
+	background-color: orange;
+	border-color: #C76E00;
+	color: white;
+	font-size: 16px;
+}
+
 a:hover {
   color: var(--secondary-color);
   transition: color 0.3s ease;
