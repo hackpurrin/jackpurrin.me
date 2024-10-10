@@ -6,6 +6,10 @@ body {
   background-color: black;
 }
 
+h1 {
+  color: white;
+}
+
 .tg  {border-collapse:collapse;border-color:#C44D58;border-spacing:0;}
 
 .tg td{background-color:#F9CDAD;border-color:#C44D58;border-style:solid;border-width:1px;color:#002b36;
