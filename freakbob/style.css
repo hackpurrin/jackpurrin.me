@@ -1,7 +1,9 @@
 body {
   background-image: url('/assets/images/freakbg.png');
   background-repeat: no-repeat;
-  color: black;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black;
 }
 
 .tg  {border-collapse:collapse;border-color:#C44D58;border-spacing:0;}
