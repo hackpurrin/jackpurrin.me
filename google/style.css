@@ -6,3 +6,8 @@ body {
     min-height: 640;
     width: 480;
 }
+
+html, body {
+    cursor: url("/assets/cursors/defualt.ico"), default;
+    /* just change the cursor.ico path to your location */
+}
