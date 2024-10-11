@@ -1,4 +1,8 @@
+html {
+    height: 640;
+    width: 480;
+}
 body {
-  width: 640;
-  height: 480;
+    min-height: 640;
+    width: 480;
 }
