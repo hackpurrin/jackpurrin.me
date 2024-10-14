@@ -5,20 +5,3 @@ document.body.className = 'light-mode';
 function darkMode() {
 document.body.className = 'dark-mode';
 }
-
-function printRecipt() {
-console.log("==================================")
-console.log("         McDONALD'S RECEIPT       ")
-console.log("----------------------------------")
-console.log("           Order Details          ")
-console.log("----------------------------------")
-console.log("Item           Quantity   Price")
-console.log("----------------------------------")
-console.log("🍔 Burger       1          2.99   ")
-console.log("🍟 Fries        1          2.49   ")
-console.log("🥤 Soda         1          1.99   ")
-console.log("----------------------------------")
-console.log("Total                      7.47   ")
-console.log("==================================")
-console.log("If you found this, tell me! Email, Discord, or Twitter!")
-}
