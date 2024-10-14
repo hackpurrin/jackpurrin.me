@@ -133,17 +133,6 @@ a:hover {
   transition: background-color 0.3s ease;
 }
 
-/* Light and Dark Modes */
-.light-mode {
-  --color-bg: #E1D9D1;
-  --color-fg: #414a4c;
-}
-
-.dark-mode {
-  --color-bg: #222;
-  --color-fg: white;
-}
-
 /* Skills list styling */
 ul {
   list-style-type: none; /* Remove bullets from list items */
