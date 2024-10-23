@@ -15,3 +15,11 @@ body {
   width: 50%;
   padding: 10px;
 }
+
+
+.noto-sans-jp-title {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 150;
+  font-style: normal;
+}
