@@ -1,11 +1,10 @@
 body {
   background-image: url("/assets/images/background.jpg");
-  color: white;
+  color: black;
 }
 
 .center {
   background-image: url("/assets/images/paper.jpg");
-  border: 5px solid;
   margin: auto;
   width: 50%;
   padding: 10px;
