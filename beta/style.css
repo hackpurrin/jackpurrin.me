@@ -1,8 +1,3 @@
-body {
-  background-image: url("/assets/images/background.jpg");
-  color: black;
-}
-
 .center {
   background-image: url("/assets/images/paper.jpg");
   margin: auto;
@@ -11,7 +6,7 @@ body {
 }
 
 .title {
-  float:right;
+  float:left;
   margin: auto;
   width: 50%;
   padding: 10px;
@@ -22,5 +17,32 @@ body {
 }
 
 .title-image {
-    float:left;
+    float:right;
+}
+
+
+body, html {
+  height: 100%;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("/assets/images/background.jpg");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
