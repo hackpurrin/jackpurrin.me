@@ -1,32 +1,21 @@
 iframe{      
         display: block;  
-        height: 100vh;    
-        width: 100vw;  
+        height: 100%;    
+        width: 100%;  
         border: none;
-        background: lightyellow;
     }
 
-.center {
-  background-image: url("/assets/images/paper.jpg");
-  margin: auto;
-  width: 50%;
-  padding: 10px;
-}
-
 .title {
-  float: left;
-  margin: auto;
-  width: 50%;
+  text-align: center;
+  display: block;
+  font-size: 2em;
   padding: 10px;	
   font-family: "Noto Sans JP", sans-serif;
   font-optical-sizing: auto;
   font-weight: 150;
   font-style: normal;
-}
-
-.title-image {
-    float:right;
-    padding: 30px;
+  color: white;
+  text-decoration: none;
 }
 
 
@@ -73,13 +62,9 @@ body, html {
   text-align: center;
 }
 
-p,h2,a {
-  float:left;
-  width: 50%;
-  line-height: 1;
-}
 
 .cta {
+  text-align: right;
   display: inline-block;
   background-color: var(--primary-color);
   color: white;
