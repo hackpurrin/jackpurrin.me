@@ -4,6 +4,7 @@ body {
 }
 
 .center {
+  background-image: url("/assets/images/paper.jpg");
   border: 5px solid;
   margin: auto;
   width: 50%;
