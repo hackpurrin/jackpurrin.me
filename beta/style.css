@@ -6,7 +6,7 @@
 }
 
 .title {
-  float:left;
+  float: left;
   margin: auto;
   width: 50%;
   padding: 10px;
@@ -62,4 +62,9 @@ body, html {
   width: 80%;
   padding: 20px;
   text-align: center;
+}
+
+p,h2 {
+  float:left;
+  width: 50%;
 }
