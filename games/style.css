@@ -24,6 +24,12 @@ iframe{
   font-style: normal;
 }
 
+.title-image {
+    float:right;
+    padding: 30px;
+}
+
+
 body, html {
   height: 100%;
   background-color: pink;
