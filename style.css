@@ -94,3 +94,7 @@ p,h2,a {
   text-transform: uppercase;
   font-size: 1.2rem;
 }
+
+a {
+  text-align: left;
+}
