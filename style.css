@@ -98,3 +98,12 @@ p,h2,a {
 a {
   text-align: left;
 }
+
+[class^="icon-"], [class*=" icon-"] {
+    display: inline-block;
+    width: 100%;
+}
+
+td a {
+    text-align:center;
+}
