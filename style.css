@@ -13,7 +13,7 @@
 }
 
 .title-image {
-    margin-top: 100px;
+    margin-top: 30px;
     margin-right: 50px;
     float:right;
     padding: 30px;
@@ -95,11 +95,9 @@ p,h2,a {
   font-size: 1.2rem;
 }
 
-[class^="icon-"], [class*=" icon-"] {
-    display: inline-block;
+.center { 
+    color: pink;
+    text-align: left;
+	margin-left: 22px;
     width: 100%;
-}
-
-a {
-    text-align:left;
 }
