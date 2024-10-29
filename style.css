@@ -106,7 +106,7 @@ p,h2,a {
     left: 0;
 }
 
-img {
+.title-image {
   margin: auto;
   display: block;
 }
