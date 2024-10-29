@@ -105,3 +105,8 @@ p,h2,a {
     bottom: 0;
     left: 0;
 }
+
+img {
+  margin: auto;
+  display: block;
+}
