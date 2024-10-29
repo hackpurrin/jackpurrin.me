@@ -97,7 +97,11 @@ p,h2,a {
 
 .center { 
     color: pink;
-    text-align: left;
-	margin-left: 22px;
-    width: 100%;
+    text-align: center;
+}
+
+.bg-text span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
