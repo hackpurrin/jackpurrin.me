@@ -110,3 +110,10 @@ p,h2,a {
   margin: auto;
   display: block;
 }
+
+p {
+  font-family: "Noto Sans JP", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
