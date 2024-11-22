@@ -25,6 +25,7 @@ body, html {
   background-color: pink;
   overflow-y: hidden;
   overflow-x: hidden; 
+  cursor: url(/assets/cursors/cursor.png), pointer;
 }
 
 * {
