@@ -14,13 +14,8 @@ const base_url = 'https://api.github.com';
         let first_commit = get_first_commit(owner, repo);
         let compare_url = base_url + '/repos/' + owner + '/' + repo + '/compare/' + first_commit + '...' + sha;
         let commit_req = httpGet(compare_url);
-        let commit_count = JSON.parse(commit_req)['total_commits'] + 1;
-        console.log('Commit Count: ', commit_count);
+        commit_count = JSON.parse(commit_req)['total_commits'] + 1;
         return commit_count
-		paragraph.textContent = newText; 
-		var contentJS = document.getElementById('contentInput').value;
-		var contentNew = content.replace("info", contentJS);
-
 
     }
     
@@ -44,6 +39,7 @@ const base_url = 'https://api.github.com';
     let repo = 'jackpurrin.me';
     let sha = 'main';
     get_all_commits_count(owner, repo, sha);
+
 
 	
 	
