@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sticky Notes</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah"/>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="sticky-notes">
+      <div class="note-container">
+        <div class="note-content" contenteditable>
+          Create Sticky Note Using HTML, CSS, and JavaScript.
+        </div>
+        <div class="note-actions">
+          <button class="delete-note" onclick="deleteNote(this)">Delete</button>
+        </div>
+      </div>
+    </div>
+    <div class="create-note" title="New Notes" onclick="createNote()">+</div>
+  <script src="script.js"></script>
+  </body>
+</html>
