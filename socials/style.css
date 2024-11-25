@@ -10,7 +10,7 @@ body, html {
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 150;
   color: white;
-  font-size: calc(1.2rem + 1.2vw);
+  font-size: calc(1.5rem + 1.5vw);
 }
 
 .bg-image {
@@ -40,10 +40,21 @@ body, html {
   text-align: center;
 }
 
-.cta,a {
-  font-size: calc(0.7rem + 0.7vw);
-  line-height: 1.7vw;
+p {
+  font-size: calc(0.8rem + 0.8vw);
+}
+
+h2 {
+  font-size: calc(1.3rem + 1.3vw);
+}
+
+a {
+  font-size: calc(1rem + 1vw);
   text-decoration: none;
   color: pink;
+}
+
+br {
+  line-height: calc(1.4rem + 1.4vw);
 }
 
