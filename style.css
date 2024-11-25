@@ -1,4 +1,5 @@
 body, html {
+  font-size: 16px;
   background-color: black;
   height: 100%;
   padding: 0;
@@ -6,19 +7,10 @@ body, html {
 }
 
 .title {
-  width: 50%;
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 150;
   color: white;
-  font-size: 2vw;
-}
-
-.title-image {
-  margin-top: 1vw;
-  margin-right: 1.5vw;
-  float:right;
-  padding: 2.3vw;
-  clear:both;
+  font-size: calc(1.2rem + 1.2vw);
 }
 
 .bg-image {
@@ -49,23 +41,15 @@ body, html {
 }
 
 p {
-  float:left;
-  width: 50%;
-  font-size: 1.1vw;
-  line-height: 1vw;
-  max-width: 722px;
+  font-size: calc(0.5rem + 0.5vw);
 }
 
 h2 {
-  float:left;
-  width: 50%;
-  font-size: 1.4vw;
+  font-size: calc(0.9rem + 0.9vw);
 }
 
 .cta,a {
-  float:left;
-  width: 50%;
-  font-size: 1.15vw;
+  font-size: calc(0.6rem + 0.6vw);
   text-decoration: none;
   color: pink;
 }
@@ -73,3 +57,4 @@ h2 {
 .breaks {
   line-height: 1.7vw;
 }
+
