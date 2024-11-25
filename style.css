@@ -1,133 +1,69 @@
-.title {
-  text-align: center;
-  width: 50%;
-  display: block;
-  padding: 10px;	
-  font-family: "Noto Sans JP", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 150;
-  font-style: normal;
-  color: white;
-  text-decoration: none;
-  font-size: 12px;
-  font-size: 2vw;
+body, html {
+  background-color: black;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
 
+.title {
+  width: 50%;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 150;
+  color: white;
+  font-size: 2vw;
 }
 
 .title-image {
-    margin-top: 30px;
-    margin-right: 50px;
-    float:right;
-    padding: 30px;
-}
-
-
-body, html {
-  height: 100%;
-  background-color: pink;
-  overflow-y: hidden;
-  overflow-x: hidden; 
-  cursor: url(/assets/cursors/cursor.png), pointer;
-  cursor: url(/assets/cursors/cursor.cur), pointer;
-
-}
-
-* {
-  box-sizing: border-box;
+  margin-top: 1vw;
+  margin-right: 1.5vw;
+  float:right;
+  padding: 2vw;
 }
 
 .bg-image {
-  /* The image used */
   background-image: url("/assets/images/background.webp");
-
-  /* Add the blur effect */
-  filter: blur(6px);
-  -webkit-filter: blur(6px);
-
-  /* Full height */
-  position:fixed;
-  top:0;
-  left:0;
-  bottom:0;
-  right:0;
-  width:100%;
-  height:100%;
-  border:none;
-  margin:0;
-  padding:0;
-  overflow:hidden; 
-
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  filter: blur(6px);
+  -webkit-filter: blur(6px);
+  position:fixed;
+  width:100%;
+  height:100%;
 }
 
-/* Position text in the middle of the page/image */
 .bg-text {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
   color: white;
-  font-weight: bold;
-  border: 3px solid #f1f1f1;
+  border: 2.5px solid white;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 2;
+  z-index: 1;
   width: 80%;
   padding: 20px;
   text-align: center;
 }
 
-p,h2,a {
+p,h2 {
   float:left;
   width: 50%;
-  line-height: 1;
-  text-decoration: none;
-  font-family: "Roboto Slab", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;    
-  font-size: 12px;
   font-size: 1vw;
-
+  line-height: 1vw;
 }
 
 .cta {
-  display: inline-block;
-  background-color: var(--primary-color);
-  color: white;
-  border-radius: 5px;
-  text-transform: uppercase;
-  font-size: 12px;
+  float:left;
+  width: 50%;
   font-size: 1.15vw;
-  text-align: center; 
   text-decoration: none;
   color: pink;
 }
 
-.center { 
-    color: pink;
-    text-align: center;
-}
-
 .bg-text span {
     position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
-.title-image {
-  margin: auto;
-  display: block;
-}
-
-p {
-    font-family: 'terminus';
-    src: url('/assets/fonts/terminusttf-4.49.3-webfont.woff2') format('woff2'),
-         url('/assets/fonts/terminusttf-4.49.3-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+    bottom: 0.2vw;
+    left: 0.2vw;
 }
