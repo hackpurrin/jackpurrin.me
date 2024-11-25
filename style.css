@@ -17,7 +17,8 @@ body, html {
   margin-top: 1vw;
   margin-right: 1.5vw;
   float:right;
-  padding: 2vw;
+  padding: 2.3vw;
+  clear:both;
 }
 
 .bg-image {
@@ -47,11 +48,18 @@ body, html {
   text-align: center;
 }
 
-p,h2 {
+p {
   float:left;
   width: 50%;
-  font-size: 1vw;
+  font-size: 1.1vw;
   line-height: 1vw;
+  max-width: 722px;
+}
+
+h2 {
+  float:left;
+  width: 50%;
+  font-size: 1.4vw;
 }
 
 .cta,a {
@@ -60,4 +68,8 @@ p,h2 {
   font-size: 1.15vw;
   text-decoration: none;
   color: pink;
+}
+
+.breaks {
+  line-height: 1.7vw;
 }
