@@ -49,23 +49,9 @@ h2 {
 }
 
 a {
-  background-color: #555555;
-  color: white;
-  padding: 15px 32px;
+  font-size: calc(1rem + 1vw);
   text-decoration: none;
-  display: inline-block;
-  font-size: calc(0.5rem + 0.5vw);
-  transition-duration: 0.4s;
-  text-align: center;
-  margin-left: 10px;
-  margin-bottom: 10px;
-}
-
-a:hover {
-  background-color: pink; /* Green */
-  color: rgb(255, 255, 255);
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  font-size: calc(0.6rem + 0.6vw);
+  color: pink;
 }
 
 br {
