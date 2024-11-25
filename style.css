@@ -54,16 +54,10 @@ p,h2 {
   line-height: 1vw;
 }
 
-.cta {
+.cta,a {
   float:left;
   width: 50%;
   font-size: 1.15vw;
   text-decoration: none;
   color: pink;
-}
-
-.bg-text span {
-    position: absolute;
-    bottom: 0.2vw;
-    left: 0.2vw;
 }
