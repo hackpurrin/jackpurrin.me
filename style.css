@@ -41,7 +41,7 @@ body, html {
 }
 
 p {
-  font-size: calc(0.5rem + 0.5vw);
+  font-size: calc(0.6rem + 0.6vw);
 }
 
 h2 {
@@ -49,12 +49,12 @@ h2 {
 }
 
 a {
-  font-size: calc(0.8rem + 0.8vw);
+  font-size: calc(0.85rem + 0.85vw);
   text-decoration: none;
   color: pink;
 }
 
 br {
-  line-height: 1.5vw;
+  line-height: 1.7vw;
 }
 
