@@ -49,12 +49,12 @@ h2 {
 }
 
 a {
-  font-size: calc(0.7rem + 0.7vw);
+  font-size: calc(0.8rem + 0.8vw);
   text-decoration: none;
   color: pink;
 }
 
 br {
-  line-height: 2.5vw;
+  line-height: 1.5vw;
 }
 
