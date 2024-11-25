@@ -48,13 +48,13 @@ h2 {
   font-size: calc(0.9rem + 0.9vw);
 }
 
-.cta,a {
-  font-size: calc(0.6rem + 0.6vw);
+a {
+  font-size: calc(0.7rem + 0.7vw);
   text-decoration: none;
   color: pink;
 }
 
-.breaks {
-  line-height: 1.7vw;
+br {
+  line-height: 2.5vw;
 }
 

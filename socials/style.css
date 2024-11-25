@@ -41,7 +41,7 @@ body, html {
 }
 
 .cta,a {
-  font-size: calc(0.6rem + 0.6vw);
+  font-size: calc(0.7rem + 0.7vw);
   line-height: 1.7vw;
   text-decoration: none;
   color: pink;
