@@ -1,0 +1,44 @@
+{
+    "name": "jackpurrin's cafe",
+    "short_name": "the cafe",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#FFB6C1",
+    "theme_color": "#000000",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "/images/favfavicons/icon-72x72.png",
+        "type": "image/png", "sizes": "72x72"
+      },
+      {
+        "src": "/images/favicons/icon-96x96.png",
+        "type": "image/png", "sizes": "96x96"
+      },
+      {
+        "src": "/images/favicons/icon-128x128.png",
+        "type": "image/png","sizes": "128x128"
+      },
+      {
+        "src": "/images/favicons/icon-144x144.png",
+        "type": "image/png", "sizes": "144x144"
+      },
+      {
+        "src": "/images/favicons/icon-152x152.png",
+        "type": "image/png", "sizes": "152x152"
+      },
+      {
+        "src": "/images/favicons/icon-192x192.png",
+        "type": "image/png", "sizes": "192x192"
+      },
+      {
+        "src": "/images/favicons/icon-384x384.png",
+        "type": "image/png", "sizes": "384x384"
+      },
+      {
+        "src": "/images/favicons/icon-512x512.png",
+        "type": "image/png", "sizes": "512x512"
+      }
+    ]
+  }
+  
