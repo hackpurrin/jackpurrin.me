@@ -10,14 +10,6 @@
   height:100%;
 }
 
-a {
-  font-size: calc(0.5rem + 1vw);
-  text-decoration: none;
-  color: lightgrey;
-  transition-duration: 0.4s;
-  padding: 15px;
-}
-
 br {
   line-height: calc(1.4rem + 1.4vw);
 }
