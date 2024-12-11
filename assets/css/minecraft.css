@@ -1,13 +1,5 @@
 .bg-image {
   background-image: url("/assets/images/minecraft.webp");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  filter: blur(60px);
-  -webkit-filter: blur(60px);
-  position:fixed;
-  width:100%;
-  height:100%;
 }
 
 br {
