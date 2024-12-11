@@ -47,15 +47,25 @@ h2 {
 }
 
 a {
-  background-color: transparent;
-  color: white;
-  padding: 15px;
+  font-size: calc(0.6rem + 0.6vw);
   text-decoration: none;
-  font-size: calc(0.6rem + 0.6vw);
-  transition-duration: 0.4s;
-}
-
-a:hover {
-  color: #999;
-  font-size: calc(0.6rem + 0.6vw);
-}
+  position: relative;
+  color: white;
+  }
+  
+  a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  left: 0;
+  bottom: -2px;
+  background: linear-gradient(50deg, #5BCEFA, #F5A9B8, white, #F5A9B8, #5BCEFA); 
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease-in-out;
+  }
+  
+  a:hover::after {
+  transform: scaleX(1);
+  }
