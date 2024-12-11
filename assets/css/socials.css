@@ -14,6 +14,12 @@ body, html {
   font-size: calc(1.5rem + 1.5vw);
 }
 
+.title:hover {
+  font-size: calc(1.7rem + 1.7vw);
+  text-decoration: none;
+  color: #d637376f;
+}
+
 .bg-image {
   background-image: url("/assets/images/socials.webp");
   background-position: center;
@@ -45,6 +51,11 @@ a {
   text-decoration: none;
   color: lightgrey;
   transition-duration: 0.4s;
+}
+
+.cta:hover {
+  color: #d03c3c;
+  font-size: calc(0.8rem + 0.8vw);
 }
 
 .cta:hover {
