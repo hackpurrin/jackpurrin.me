@@ -52,6 +52,7 @@ a {
   text-decoration: none;
   color: lightgrey;
   transition-duration: 0.4s;
+  padding: 15px;
 }
 
 .cta:hover {

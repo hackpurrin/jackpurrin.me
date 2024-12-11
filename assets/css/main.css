@@ -51,6 +51,7 @@ a {
   text-decoration: none;
   position: relative;
   color: white;
+  
   }
   
   a::after {
