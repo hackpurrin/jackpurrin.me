@@ -11,13 +11,14 @@ body, html {
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 150;
   color: white;
-  font-size: calc(1.5rem + 1.5vw);
+  font-size: calc(1.3rem + 1.3vw);
+  transition-duration: 0.4s;
 }
 
 .title:hover {
-  font-size: calc(1.7rem + 1.7vw);
+  font-size: calc(1.5rem + 1.5vw);
   text-decoration: none;
-  color: #d637376f;
+  color: linear-gradient(to right, #5BCEFA, #F5A9B8, #FFFFFF);
 }
 
 .bg-image {
