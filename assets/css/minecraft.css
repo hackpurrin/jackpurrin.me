@@ -5,3 +5,12 @@
 br {
   line-height: calc(1.4rem + 1.4vw);
 }
+
+input {
+  color: white;
+  font-weight: 200;
+  width: 47px;
+  background-color: transparent;
+  border: none;
+  font-size: calc(0.9rem + 0.9vw);
+}
