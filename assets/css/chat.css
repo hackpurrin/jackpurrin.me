@@ -8,6 +8,8 @@ body {
     display: flex;
     flex-direction: column;
     max-height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
   }
 
 .title,a {
@@ -31,19 +33,17 @@ body {
   }
   
   .bg-text {
-    background-color: rgb(0,0,0);
     background-color: rgba(0,0,0, 0.4);
     color: white;
-    border: 2.5px solid white;
+    border: 5px solid rgba(255, 255, 255, 0.644);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    width: 80%;
+    width: 50%;
     padding: 20px;
     text-align: center;
-    max-height: 80%;
   }
 
 .members-count, .members-list, .messages {
