@@ -35,7 +35,7 @@ body {
   .bg-text {
     background-color: rgba(0,0,0, 0.4);
     color: white;
-    border: 5px solid rgba(255, 255, 255, 0.644);
+    border: 5px solid rgba(255, 255, 255, 0.247);
     position: absolute;
     top: 50%;
     left: 50%;
