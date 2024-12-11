@@ -51,6 +51,7 @@ a {
   text-decoration: none;
   position: relative;
   color: white;
+  margin: 15px 8px;
   
   }
   
@@ -58,9 +59,9 @@ a {
   content: '';
   position: absolute;
   width: 100%;
-  height: 1px;
+  height: 2px;
   left: 0;
-  bottom: -2px;
+  bottom: -3px;
   background: linear-gradient(50deg, #5BCEFA, #F5A9B8, white, #F5A9B8, #5BCEFA); 
   transform: scaleX(0);
   transform-origin: left;
