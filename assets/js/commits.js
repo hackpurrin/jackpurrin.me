@@ -14,8 +14,8 @@ const base_url = 'https://api.github.com';
         let first_commit = get_first_commit(owner, repo);
         let compare_url = base_url + '/repos/' + owner + '/' + repo + '/compare/' + first_commit + '...' + sha;
         let commit_req = httpGet(compare_url);
-        commit_count = JSON.parse(commit_req)['total_commits'] + 1;
-        return commit_count
+        main_commit_count = JSON.parse(commit_req)['total_commits'] + 1;
+        return main_commit_count
 
     }
     

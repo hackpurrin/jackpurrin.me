@@ -14,10 +14,14 @@
 		<div class="bg-image"></div>
         <div class="bg-text">
 		<a class="title" href="/">jackpurrin's cafe</a>
-        <h1 id="commits">Commits: 0</h1>
+        <h1 id="main-commits">Main Branch PLACEHOLDER</h1>
+		<h1 id="dev-commits">Beta Branch PLACEHOLDER</h1>
         <script>
-            const element = document.getElementById("commits");
-            element.innerHTML = 'Commits: ' + commit_count;
+            const element = document.getElementById("main-commits");
+            element.innerHTML = 'Commits on branch "main" <br>' + main_commit_count;
+
+			const element = document.getElementById("dev-commits");
+            element.innerHTML = 'Commits on branch "beta" <br>' + dev_commit_count;
         </script>
 		</div>
 	</body>
