@@ -59,6 +59,5 @@ a {
 
 a:hover {
   color: #999;
-  font-size: calc(0.8rem + 0.8vw);
+  font-size: calc(0.9rem + 0.9vw);
 }
-
