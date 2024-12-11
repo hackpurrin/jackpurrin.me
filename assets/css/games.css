@@ -41,9 +41,15 @@ body, html {
 }
 
 a {
-  font-size: calc(1rem + 1vw);
+  font-size: calc(0.5rem + 1vw);
   text-decoration: none;
   color: purple;
+  transition-duration: 0.4s;
+}
+
+a:hover {
+  font-size: calc(0.7rem + 1.2vw);
+  text-decoration: none;
 }
 
 br {
