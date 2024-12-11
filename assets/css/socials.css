@@ -47,7 +47,7 @@ a {
   transition-duration: 0.4s;
 }
 
-a:hover {
+.cta:hover {
   font-size: calc(0.7rem + 1.2vw);
   text-decoration: none;
 }
