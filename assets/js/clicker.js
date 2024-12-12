@@ -48,6 +48,7 @@ function upgradeMPC() {
     mpc++; // Increase MPC
     mpcCost *= 2; // Increase cost for next upgrade
     updateDisplay();
+    saveGame();
   } else {
   }
 }
@@ -61,8 +62,10 @@ function buyMPS() {
     setInterval(function() {
       money += mps;
       updateDisplay();
+      saveGame();
     }, 1000);
     updateDisplay();
+    saveGame();
   } else {
   }
 }
