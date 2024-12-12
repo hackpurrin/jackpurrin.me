@@ -75,7 +75,6 @@ function buyMPS() {
       saveGame();
     }, 1000);
     updateDisplay();
-    saveGame();
   } else {
   }
 }
