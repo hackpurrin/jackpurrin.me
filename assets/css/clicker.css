@@ -1,0 +1,9 @@
+.bg-image {
+  background-image: url("/assets/images/main.webp");
+}
+
+button {
+ background-color: transparent;
+ color: white;
+ font-size: 24px;
+}
