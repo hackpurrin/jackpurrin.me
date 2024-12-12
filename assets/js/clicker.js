@@ -28,6 +28,14 @@ function loadGame() {
     updateDisplay()
 }
 
+function resetGame() {
+  localstorage.clear("savedMoney");
+  localstorage.clear("savedMPC");
+  localstorage.clear("savedMPCC");
+  localstorage.clear("savedMPS");
+  localstorage.clear("savedMPSC");
+}
+
 function updateDisplay() {
   moneyDisplay.textContent = money;
   mpcDisplay.textContent = mpc;
