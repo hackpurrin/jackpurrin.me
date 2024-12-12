@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="/assets/css/clicker.css">
   <link rel="stylesheet" href="/assets/css/common.css">
 </head>
-<body onload="loadGame()">
+<body>
     <div class="bg-image"></div>
     <div class="bg-text">
   <div id="clickerContainer">
@@ -23,6 +23,8 @@
     <button onclick="upgradeMPC()">Upgrade MPC (Cost: <span id="mpcCost">10</span> money)</button>
     <p>Money per Second: <span id="mps">0</span></p>
     <button onclick="buyMPS()">Buy MPS (Cost: <span id="mpsCost">50</span> money)</button>
+    <br>
+    <button onclick="loadGame()">Load game</button>
     <script src="/assets/js/clicker.js"></script>
 
   </div>
