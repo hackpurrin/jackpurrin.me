@@ -55,6 +55,7 @@ function upgradeMPC() {
     money -= mpcCost;
     mpc++; // Increase MPC
     mpcCost *= 1.3; // Increase cost for next upgrade
+    mpcCost = Math.ceil(mpcCost); 
     updateDisplay();
     saveGame();
   } else {
@@ -66,6 +67,7 @@ function buyMPS() {
     money -= mpsCost;
     mps++; // Increase MPS
     mpsCost *= 1.3; // Increase cost for next purchase
+    mpsCost = Math.ceil(mpsCost); 
     // Automatically add money every second
     setInterval(function() {
       money += mps;
