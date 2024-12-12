@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clicker Game</title>
+  <link rel="stylesheet" href="/assets/css/clicker.css">
+  <link rel="stylesheet" href="/assets/css/common.css">
+</head>
+<body onload="loadGame()">
+    <div class="bg-image"></div>
+    <div class="bg-text">
+  <div id="clickerContainer">
+    <h1>Clicker Game</h1>
+    <p>Money: <span id="money">0</span></p>
+    <!-- Replace the button with an image of a cookie -->
+    <button id="cookie" onclick="clickCookie()">Free money!</button>
+  </div>
+  
+  <div id="shopContainer">
+    <h2>Shop</h2>
+    <p>Money per Click: <span id="mpc">1</span></p>
+    <button onclick="upgradeMPC()">Upgrade MPC (Cost: <span id="mpcCost">10</span> money)</button>
+    <p>Money per Second: <span id="mps">0</span></p>
+    <button onclick="buyMPS()">Buy MPS (Cost: <span id="mpsCost">50</span> money)</button>
+    <script src="/assets/js/clicker.js"></script>
+
+  </div>
+
+  </div>
+</body>
+</html>
