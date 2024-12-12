@@ -2,6 +2,10 @@
   background-image: url("/assets/images/main.webp");
 }
 
+.title {
+  display: block;
+}
+
 p {
   font-size: calc(0.6rem + 0.6vw);
 }
