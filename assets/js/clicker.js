@@ -49,7 +49,6 @@ function upgradeMPC() {
     mpcCost *= 2; // Increase cost for next upgrade
     updateDisplay();
   } else {
-    alert("Not enough money to upgrade!");
   }
 }
 
