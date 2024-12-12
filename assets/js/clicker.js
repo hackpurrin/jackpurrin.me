@@ -46,7 +46,7 @@ function upgradeMPC() {
   if (money >= mpcCost) {
     money -= mpcCost;
     mpc++; // Increase MPC
-    mpcCost *= 2; // Increase cost for next upgrade
+    mpcCost *= 1.3; // Increase cost for next upgrade
     updateDisplay();
     saveGame();
   } else {
@@ -57,7 +57,7 @@ function buyMPS() {
   if (money >= mpsCost) {
     money -= mpsCost;
     mps++; // Increase MPS
-    mpsCost *= 2; // Increase cost for next purchase
+    mpsCost *= 1.3; // Increase cost for next purchase
     // Automatically add money every second
     setInterval(function() {
       money += mps;
