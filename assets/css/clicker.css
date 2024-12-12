@@ -5,5 +5,5 @@
 button {
  background-color: transparent;
  color: white;
- font-size: 24px;
+ font-size: calc(0.6rem + 0.6vw);
 }
