@@ -2,6 +2,10 @@
   background-image: url("/assets/images/main.webp");
 }
 
+p {
+  font-size: calc(0.9rem + 0.9vw);
+}
+
 button {
  background-color: transparent;
  color: white;
