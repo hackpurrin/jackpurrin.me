@@ -13,4 +13,4 @@
 
 ## TODO:
 
-- [ ] Start using React
+- [ ] Start using Vue.JS
