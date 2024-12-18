@@ -7,9 +7,9 @@
 ### [Mirror 1](https://jackpurrin-me.pages.dev)
 
 ## Other versions of my website:  
-### [Beta](https://beta.jackpurrin.me/)  
+### [Beta](https://dev.jackpurrin.me/)  
 
-### [Mirror 1 of Beta](https://beta-jackpurrin-me.pages.dev)
+### [Mirror 1 of Beta](https://dev-jackpurrin-me.pages.dev)
 
 ## TODO:
 
